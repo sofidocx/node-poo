@@ -42,14 +42,25 @@ export default class User {
     }
 
 
+    // exibeInfos() {
+    //     return `${this.nome}, ${this.email}`;
+    // }
+
     exibeInfos() {
-        return `${this.nome}, ${this.email}`;
+        if(this.role === "estudante") {
+            return `dados estudante: ${this.nome}`;
+        }
+        if(this.role === "admin") {
+            return `dados admin: ${this.nome}, ${this.role}`;
+        }
+        if(this.role === "docente") {
+            return `dados docente: ${this.nome}, ${this.email}`;
+        }
     }
 
 }
 
 const novoUser = new User ('Sofia', 's@s.com', '2024-07-28'); 
-console.log(novoUser);
 console.log(novoUser.exibeInfos()); 
 
 //console.log(User.prototype.isPrototypeOf(novoUser)); // console: true, user é uma classe, mas internamente, ela é um protótipo
