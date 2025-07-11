@@ -1,0 +1,24 @@
+{
+  "name": "poo",
+  "version": "1.0.0",
+  "description": "[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)\r [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)\r [![Programação Orientada a Objetos](https://img.shields.io/badge/POO-darkblue?style=for-the-badge)](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_orientada_a_objetos)\r [![Alura](https://img.shields.io/badge/Alura-0078D4?style=for-the-badge&logo=alura&logoColor=white)](https://www.alura.com.br/)",
+  "main": "herencaPrototipo.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofidocx/node-poo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofidocx/node-poo/issues"
+  },
+  "homepage": "https://github.com/sofidocx/node-poo#readme"
+}
