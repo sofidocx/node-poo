@@ -1,7 +1,7 @@
 // classe admin
 import User from "./User.js";
 
-class Admin extends  User {
+export default class Admin extends  User {
     constructor (nome, email, nascimento, role = "admin", ativo = "true") {
         super(nome, email, nascimento, role, ativo); //superclasse - esses parametros estão definidos na superclasse de Admin, no caso User
     }
