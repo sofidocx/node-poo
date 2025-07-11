@@ -10,3 +10,6 @@ console.log(novoAdmin.exibeInfos());
 
 const novoDocente = new Docente('Ana', 'a@a.com', '2024-02-02');
 console.log(novoDocente.exibeInfos());
+
+const dadosFicticios = User.exibirInfosGenericas('Cassio', 'c@c.com');
+console.log(dadosFicticios);

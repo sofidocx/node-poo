@@ -58,6 +58,10 @@ export default class User {
         }
     }
 
+    static exibirInfosGenericos (nome, email) {
+        return `${nome}, ${email}`;
+    }
+
 }
 
 const novoUser = new User ('Sofia', 's@s.com', '2024-07-28'); 
