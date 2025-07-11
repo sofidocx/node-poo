@@ -34,6 +34,13 @@ export default class User {
         return this.#ativo; 
     }
 
+    set nome (novoNome) {
+        if(novoNome === '') {
+            throw new Error ('Formato do nome não é válido'); 
+        }
+        this.#nome = novoNome;
+    }
+
 
     exibeInfos() {
         return `${this.nome}, ${this.email}`;

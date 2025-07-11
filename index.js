@@ -10,3 +10,6 @@ const novoAdmin = new Admin('João', 'j@j.com', '2024-02-02');
 console.log(novoAdmin.exibeInfos());
 console.log(novoAdmin.nome);
 
+novoUser.nome = 'Julia'; 
+console.log(novoUser.nome);
+
