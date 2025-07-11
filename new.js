@@ -9,6 +9,6 @@ function User (nome, email) {
     }
 }
 
-const novoUser = new User('Sofia', 's@s.com'); 
+const novoUser = new User('Sofia', 's@s.com'); //criar instancias de um objeto 
 console.log(novoUser.exibirInfos());
  

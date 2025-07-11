@@ -21,6 +21,8 @@ const admin = {
     },
 }
 
-Object.setPrototypeOf(admin,user); 
+// (quem vai pegar as propriedades, de onde as propriedades vem )
+Object.setPrototypeOf(admin,user); // admin vai usar como protótipo (como modelo) o objeto user
 admin.criarCursos();
 admin.exibirInfos(); 
+//cadeia de protótipos

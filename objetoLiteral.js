@@ -19,4 +19,4 @@ const exibir = function () {
 }
 
 const exibirNomeEEmail = exibir.bind(user);// --> prender ou ligar duas coisas, vou prender a const exibir ao objeto user 
-exibirNomeEEmail(); 
+exibirNomeEEmail(); // --> herança de protótipo
